@@ -16,4 +16,4 @@ $ docker-compose up -d
 $ docker exec -it CONTAINER_NAME bash
 ```
 
-あとはpythonリポジトリをcloneするなりよしなに。
+あとは開発したいpythonリポジトリをcloneするなりよしなに。
