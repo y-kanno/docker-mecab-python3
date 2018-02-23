@@ -7,7 +7,7 @@ docker-machine,docker-composeがインストールされている前提。
 dockerイメージ自体はこちら
 https://hub.docker.com/r/ykanno/docker-mecab-python3
 
-# how to use
+## How to use
 ```
 $ docker-machine create MACHINE_NAME --driver virtualbox --virtualbox-disk-size "30000"
 $ git clone https://github.com/y-kanno/docker-mecab-python3
