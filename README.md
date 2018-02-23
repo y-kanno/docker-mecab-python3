@@ -10,6 +10,8 @@ https://hub.docker.com/r/ykanno/docker-mecab-python3
 ## How to use
 ```
 $ docker-machine create MACHINE_NAME --driver virtualbox --virtualbox-disk-size "30000"
+$ docker-machine env MACHINE_NAME
+$ eval $(docker-machine env MACHINE_NAME)
 $ git clone https://github.com/y-kanno/docker-mecab-python3
 $ docker-compose build
 $ docker-compose up -d
