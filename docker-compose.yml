@@ -1,0 +1,9 @@
+version: '2'
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./docker/python/Dockerfile
+    command: /bin/bash -c 'tail -f /dev/null'
+    volumes:
+      - .:/myapp
